@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+header img {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    border: 2px solid black;
+    border-radius: 15px;
+    margin-left: 5rem;
+}
+header {
+    background-color: rgb(21,22,129);
+    font-size: large;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content:space-between; 
+    align-items: center;
+    padding: 10px;
+    color: white;
+}
+
+header li {
+    list-style: none;
+    margin-left: 5rem;
+    position: relative;
+    
+}
+header .navigation li {
+    list-style: none;
+    margin: 0 60px;
+    display: inline-block;
+    margin-right: 2rem;
+    
+    
+}
+
+header .navigation li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 1px;
+    
+}
+
+header .navigation li a:hover {
+    color: rgb(198,142,37);
+}
+body{
+    background-color: rgb(21, 76, 129);
+    font-family: 'poppins', 'sans-serif';
+}
+.login-div{
+    margin: 100px auto;
+    width: 500px;
+    background-color: #fff;
+    padding: 60px;
+    border-radius: 30px;
+    box-shadow: 10px 10px 10px  black;
+}
+.logo{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin:0 auto ;
+    margin-bottom: 10px;
+}
+
+.logo img{
+    width: 100%;
+}
+.title{
+    text-align: center;
+    color: #505050;
+    font-weight: bolder;
+    font-size: 35px;
+}
+.form{
+    width: 100%;
+    margin-top: 30px;
+}
+
+.container1{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10%;
+}
+
+.etunimi{
+    border: #505050 solid 1px;
+    border-radius: 30px;
+}
+
+.sukunimi{
+    border: #505050 solid 1px;
+    border-radius: 30px;
+}
+
+.form input{
+    font-size: 18px;
+    padding: 10px 20px 10px 5px;
+    border: none;
+    outline: none;
+    background: none;
+}
+
+
+.sähköposti, .salasana{
+    border-radius: 30px;
+    border: 1px solid gray;
+    padding: 10px;
+    margin: 10px 0;
+}
+.form svg{
+    height: 25px;
+    margin-bottom: -5px;
+    margin-left: 10px;
+    margin-right: 5px;
+}
+.muut{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5px 0px;
+    margin-bottom: 30px;
+}
+button.kirjaudu-nappi{
+    width: 100%;
+    padding: 12px 10px;
+    border: none;
+    font-size: 18px;
+    border-radius: 30px;
+    background-color: rgb(21, 76, 129);
+    margin-bottom: 20px;
+    color: #fff;
+    cursor: pointer;
+}
+button.kirjaudu-nappi:hover{
+    background-color: rgb(13, 46, 77);
+}
+.rekisteroidy{
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: #505050;
+}
+.container {max-width: 1170px;
+    
+    margin: auto;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-col {
+    width: 22%;
+    padding: 0 15px;
+}
+
+.footer-col h4 {
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    font-weight: 500;
+    position: relative;
+}
+
+.footer-col h4::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: rgb(250, 250, 250);
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+
+}
+
+.footer {
+    background-color: rgb(21,22,129);
+    position: relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: auto;
+    padding: 50px 0;
+    color: white;
+}
+.footer a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+ }
+ 
+ .footer ul {
+    list-style: none;
+ }
+
+ .footer li a:hover {
+    color: rgb(198,142,37);
+}
+
+.footer img {
+    border: 3px solid black;
+    border-radius: 15px;
+    
+}
+
+
+.footer-col ul i {
+    font-size: xx-large;    
+}
+ .footer ul i:hover {
+    color: rgb (198,142,37)
+}
+
